@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper{
+    width: 90%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+p, button{
+    font-family: "Overpass Mono", monospace;
+    border: 4px rgb(65, 65, 179) solid;
+    border-radius: 10px;
+    background-color: rgb(132, 228, 132);  
+    padding: 10px;
+    text-align: center;
+}
+
+#btn:hover{
+    border-color: rgb(28, 28, 126);
+}
+
+#btn:active{
+    background-color: rgb(253, 230, 115);
+}
