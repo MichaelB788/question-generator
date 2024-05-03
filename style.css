@@ -16,12 +16,19 @@ body{
 }
 
 p, button{
+    display: flex;
     font-family: "Overpass Mono", monospace;
     border: 4px rgb(65, 65, 179) solid;
     border-radius: 10px;
     background-color: rgb(132, 228, 132);  
     padding: 10px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    position: static;
 }
 
 #btn:hover{
